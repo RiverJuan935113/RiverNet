@@ -9,8 +9,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-              url('oficina.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+            url('oficina.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -23,20 +23,19 @@ header {
     padding: 40px 20px;
 }
 
-.logo {
-    width: 300px;
-    animation: flotar 3s ease-in-out infinite;
+header h1 {
+  margin-top: 20px;
+  font-size: 2em;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
+}
+  header p {
+  font-size: 1.2em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.9);
+  letter-spacing: 2px;
 }
 
-@keyframes flotar {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
-}
-
-h1 {
-    margin-top: 20px;
-    font-size: 2em;
+.servicios h2 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 .servicios {
