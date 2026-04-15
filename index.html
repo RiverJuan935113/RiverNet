@@ -58,40 +58,41 @@ header h1 {
 }
 </div>
 }
-.btn-wsp, .btn-tel {
-    padding: 10px 20px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-    font-size: 15px;
-    transition: all 0.3s;
-}
-.btn-wsp { 
-    background: #25D366;
-}
-  .btn-tel {
-    background: #007bff;
-}
-  .botones-soporte {
+ .botones-soporte {
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 15px;
 }
-.btn-wsp:hover, .btn-tel:hover { 
-    opacity: 0.8; 
+
+.btn-wsp,.btn-tel {
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-wsp {
+    background: #25D366;
+}
+
+.btn-wsp:hover {
+    background: #1ebe5d;
     transform: translateY(-2px);
 }
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
+
+.btn-tel {
+    background: #007bff;
+}
+
+.btn-tel:hover {
+    background: #0069d9;
+    transform: translateY(-2px);
+}
 }
 .redes-sociales {
     margin-bottom: 15px;
